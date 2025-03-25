@@ -1,0 +1,18 @@
+.content__title {
+  font-size: 2rem; /* Ajuste o tamanho conforme necessário */
+  margin-bottom: 20px; /* Espaço entre o título e o mapa */
+  text-align: center; /* Alinha o título ao centro */
+  color: #010101;
+  font-family: "Inter", sans-serif;
+}
+
+.content__map {
+  width: 100%;
+  max-width: 600px;
+  height: 720px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

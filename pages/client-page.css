@@ -1,0 +1,58 @@
+.clients-page {
+  justify-content: center;
+  flex-direction: column;
+}
+.clients-nav {
+  margin: 0;
+  width: 100%;
+}
+
+.clients-nav__logo {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 280px; /* Espaçamento entre as imagens (opcional) */
+  background-image: url("../images/Header-banner.jpg"); /* Sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clients-nav__logo--emtech {
+  max-width: 440px;
+  border: none;
+  margin-right: 140px;
+}
+.clients-nav__logo--performance {
+  max-width: 440px;
+}
+
+.clients-nav__links {
+  background: #ff5900;
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-nav__link {
+  margin: 0 80px; /* Ajuste esse valor para aumentar ou diminuir o espaço entre os links */
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.clients-nav__link img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.client-image {
+  width: 300px; /* Ajuste o tamanho conforme necessário */
+  height: 200px; /* Ajuste a altura conforme necessário */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}

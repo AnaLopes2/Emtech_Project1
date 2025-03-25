@@ -1,0 +1,37 @@
+.popup-content {
+  width: 100%; /* Ajuste a largura conforme necessário */
+  max-width: 800px; /* Tamanho máximo da largura */
+  margin: 0 auto; /* Centraliza o popup */
+
+  background-size: cover; /* Faz a imagem cobrir todo o espaço */
+  background-position: center; /* Garante que a imagem esteja centralizada */
+  color: rgb(0, 0, 0); /* Texto branco para contraste */
+  padding: 30px; /* Espaço interno para o conteúdo */
+  border-radius: 12px; /* Cantos arredondados */
+  /* Sombra mais forte para dar profundidade */
+  text-align: center;
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do popup */
+}
+
+.popup-link {
+  display: block;
+  margin-top: 20px;
+  color: #ff5900; /* Cor vibrante para links */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.popup-link:hover {
+  text-decoration: underline;
+}
+
+.popup-title {
+  font-size: 2em; /* Tamanho maior para o título */
+  font-family: "Roboto", sans-serif; /* Fonte moderna */
+  margin-bottom: 15px;
+}
+
+.popup-description {
+  font-size: 1.1em; /* Texto de descrição com espaçamento adequado */
+}

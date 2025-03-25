@@ -1,0 +1,12 @@
+.page {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      /* Cor branca com 50% de opacidade */ rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/logoBackground.jpg"); /* Sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}

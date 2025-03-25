@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="VoyagerCloud Website" />
+    <meta name="author" content="Ana Lopes" />
+    <meta
+      name="keywords"
+      content="Voyager, projeto web, front-end, development, Ana Lopes"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Poland-EmTech Hatchery Systems</title>
+  </head>
+  <body>
+    <div class="clients-page">
+      <header class="clients-header">
+        <nav class="clients-nav">
+          <div class="clients-nav__topBar">
+            <h2></h2>
+          </div>
+
+          <div class="clients-nav__logo">
+            <img
+              src="./images/emtechLogo.PNG"
+              alt="Emtech Logo"
+              class="clients-nav__logo--emtech"
+            />
+            <img
+              src="./images/logo.png"
+              alt="Overlay Logo"
+              class="clients-nav__logo--performance"
+            />
+          </div>
+          <ul class="clients-nav__links">
+            <li class="clients-nav__item">
+              <a class="clients-nav__link" href="./index.html">
+                <img src="./images/home.png" alt="Home" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="search">
+          <div class="search__form">
+            <select id="dropdown1" class="search__dropdown">
+              <option value="" disabled selected>Unit</option>
+              <option value="Option 1A">Option 1A</option>
+              <option value="Option 1B">Option 1B</option>
+              <option value="Option 1C">Option 1C</option>
+              <option value="Option 1D">Option 1D</option>
+              <option value="Option 1E">Option 1E</option>
+            </select>
+
+            <select
+              id="dropdown2"
+              class="search__dropdown"
+              onchange="autoSearch()"
+            >
+              <option value="" disabled selected>Type</option>
+              <option value="Option 2A">Option 2A</option>
+              <option value="Option 2B">Option 2B</option>
+              <option value="Option 2C">Option 2C</option>
+              <option value="Option 2D">Option 2D</option>
+              <option value="Option 2E">Option 2E</option>
+            </select>
+          </div>
+
+          <div id="result" class="search__result"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
