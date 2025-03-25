@@ -51,9 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
       country: "Denmark",
       coords: [55.6761, 12.5683],
       description: "Capital of Denmark",
-      photo: "img/copenhagen.jpg",
+
       link: "https://en.wikipedia.org/wiki/Copenhagen",
-      imageClass: "client-image",
     },
     {
       country: "Finland",
@@ -66,17 +65,15 @@ document.addEventListener("DOMContentLoaded", function () {
       country: "France",
       coords: [48.8566, 2.3522],
       description: "Capital of France",
-      photo: "img/paris.jpg",
+
       link: "https://en.wikipedia.org/wiki/Paris",
-      imageClass: "client-image",
     },
     {
       country: "Germany",
       coords: [52.52, 13.405],
       description: "Capital of Germany",
-      photo: "img/berlin.jpg",
+
       link: "https://en.wikipedia.org/wiki/Berlin",
-      imageClass: "client-image",
     },
     {
       country: "Netherlands",
@@ -256,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="popup-content">
       <h3>${location.country}</h3>
       <p>${location.description}</p>
-      <a href="${location.link}" target="_blank">Saiba mais</a>
+      <a href="${location.link}" target="_blank">Click HERE</a>
     </div>
   `;
 
