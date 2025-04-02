@@ -286,7 +286,8 @@ function autoSearch() {
 
   // Assign values based on the combination of dropdown selections
   if (dropdown1 === "Ruchenna Duck" && dropdown2 === "Unit 1") {
-    description = "This is a brief description for Ruchenna Duck in Unit 1.";
+    description =
+      "This is a brief description for Ruchenna Duck in Unit 1. Hatchery name";
     link = "http://127.0.0.1:5501/monitoringSystem.html";
   } else if (dropdown1 === "Avibio Plus" && dropdown2 === "Unit 1") {
     description = "This is a brief description for Avibio Plus in Unit 1.";

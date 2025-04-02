@@ -40,7 +40,7 @@
               </a>
             </li>
             <li class="clients-nav__item">
-              <a class="clients-nav__link" href="equipmentPage">EQUIPMENT</a>
+              <a class="clients-nav__link" href="HatcheryPage">SHOW HATCHERY</a>
             </li>
             <li class="clients-nav__item">
               <a class="clients-nav__link" href="alarmPage">ALARMS</a>
@@ -48,9 +48,7 @@
             <li class="clients-nav__item">
               <a class="clients-nav__link" href="historyPage">HISTORY</a>
             </li>
-            <li class="clients-nav__item">
-              <a class="clients-nav__link" href="toolPage">TOOLS</a>
-            </li>
+
             <li class="clients-nav__item">
               <a class="clients-nav__link" href="settingsPage"
                 >&#9881; SETTINGS</a
@@ -60,8 +58,279 @@
         </nav>
       </header>
       <main class="main">
-        <section class="">
-          <div class="form"></div>
+        <section class="setters">
+          <h1 class="setters__title">Setter Page</h1>
+          <div class="setters__table-container">
+            <table class="setters__table">
+              <thead class="setters__table-head">
+                <tr class="setters__table-row">
+                  <th class="setters__table-header">Setter</th>
+                  <th class="setters__table-header">Description</th>
+                  <th class="setters__table-header">Status</th>
+                  <th class="setters__table-header">Set (°C)</th>
+                  <th class="setters__table-header">Temp 1 (°C)</th>
+                  <th class="setters__table-header">Temp 2 (°C)</th>
+                  <th class="setters__table-header">Temp 3 (°C)</th>
+                  <th class="setters__table-header">Temp 4 (°C)</th>
+                  <th class="setters__table-header">Temp 5 (°C)</th>
+                  <th class="setters__table-header">Temp 6 (°C)</th>
+                  <th class="setters__table-header">Heat/Cool</th>
+                  <th class="setters__table-header">Humidity (%)</th>
+                  <th class="setters__table-header">CO2 (%)</th>
+                  <th class="setters__table-header">Damper (%)</th>
+                  <th class="setters__table-header">Fan Speed (%)</th>
+                  <th class="setters__table-header">Tuning</th>
+                  <th class="setters__table-header">Alarm</th>
+                </tr>
+              </thead>
+              <tbody class="setters__table-body">
+                <tr id="setter-1" class="setters__table-row">
+                  <td class="setters__table-cell">
+                    <button
+                      onclick="window.location.href='setter1.html'"
+                      class="setters__button"
+                    >
+                      Setter 1
+                    </button>
+                  </td>
+                  <td class="setters__table-cell">PT8</td>
+                  <td class="setters__table-cell">
+                    <span id="status-1" class="status-box status-box--no-comm"
+                      >No Communication</span
+                    >
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="setpoint-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-3">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-4">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-5">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-1-6">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="heatcool-1">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="humidity-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="co2-1">0.000%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="damper-1">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="fanSpeed-1">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span
+                      id="tuning-1"
+                      class="tuning-ball tuning-ball--off"
+                    ></span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="alarm-1" class="alarm-indicator off"></span>
+                  </td>
+                </tr>
+                <tr id="setter-2" class="setters__table-row">
+                  <td class="setters__table-cell">
+                    <button
+                      onclick="window.location.href='setter2.html'"
+                      class="setters__button"
+                    >
+                      Setter 2
+                    </button>
+                  </td>
+                  <td class="setters__table-cell">PT8</td>
+                  <td class="setters__table-cell">
+                    <span id="status-2" class="status-box status-box--no-comm"
+                      >No Communication</span
+                    >
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="setpoint-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-3">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-4">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-5">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-2-6">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="heatcool-2">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="humidity-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="co2-2">0.000%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="damper-2">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="fanSpeed-2">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span
+                      id="tuning-2"
+                      class="tuning-ball tuning-ball--off"
+                    ></span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="alarm-2" class="alarm-indicator off"></span>
+                  </td>
+                </tr>
+                <tr id="rsetter-3" class="setters__table-row">
+                  <td class="setters__table-cell">
+                    <button
+                      onclick="window.location.href='setter3.html'"
+                      class="setters__button"
+                    >
+                      Setter 3
+                    </button>
+                  </td>
+                  <td class="setters__table-cell">PT8</td>
+                  <td class="setters__table-cell">
+                    <span id="status-3" class="status-box status-box--no-comm"
+                      >No Communication</span
+                    >
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="setpoint-3">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-3">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-4">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-5">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-3-6">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="heatcool-3">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="humidity-3">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="co2-3">0.000%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="damper-3">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="fanSpeed-3">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span
+                      id="tuning-3"
+                      class="tuning-ball tuning-ball--off"
+                    ></span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="alarm-3" class="alarm-indicator off"></span>
+                  </td>
+                </tr>
+                <tr id="setter-4" class="setters__table-row">
+                  <td class="setters__table-cell">
+                    <button
+                      onclick="window.location.href='setter4.html'"
+                      class="setters__button"
+                    >
+                      Setter 4
+                    </button>
+                  </td>
+                  <td class="setters__table-cell">PT8</td>
+                  <td class="setters__table-cell">
+                    <span id="status-4" class="status-box status-box--no-comm"
+                      >No Communication</span
+                    >
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="setpoint-4">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-1">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-2">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-3">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-4">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-5">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="temp-4-6">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="heatcool-4">-</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="humidity-4">0.0</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="co2-4">0.000%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="damper-4">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="fanSpeed-4">0%</span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span
+                      id="tuning-4"
+                      class="tuning-ball tuning-ball--off"
+                    ></span>
+                  </td>
+                  <td class="setters__table-cell">
+                    <span id="alarm-4" class="alarm-indicator off"></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
       </main>
     </div>

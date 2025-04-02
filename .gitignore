@@ -1,1 +1,4 @@
 .DS_Store
+
+# Ignora o arquivo .env para que as variáveis de ambiente não sejam enviadas ao repositório
+.env

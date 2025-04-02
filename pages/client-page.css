@@ -56,3 +56,118 @@
   height: 200px; /* Ajuste a altura conforme necessário */
   object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
 }
+.setters-section__title {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 20px auto;
+}
+.setters__title {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Estilização da tabela */
+.setters__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Cabeçalho e células */
+.setters__table-header,
+.setters__table-cell {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.setters__table-header {
+  background-color: #6a6a6a;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Estilização do botão do Setter */
+.setters__button {
+  background-color: #919191;
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.setters__button:hover {
+  background-color: #ff5900;
+}
+
+/* Status box */
+.status-box {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.status-box--no-comm {
+  background-color: rgb(243, 0, 0);
+}
+
+.status-box--out-service {
+  background-color: rgb(10, 112, 255);
+}
+
+.status-box--running {
+  background-color: green;
+}
+
+/* Tuning ball */
+.tuning-ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+.tuning-ball--on {
+  background-color: green;
+}
+
+/* Indicador de alarme */
+.alarm-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.alarm-indicator--on {
+  background-color: red;
+  animation: blink 1s infinite alternate;
+}
+
+/* Animação do alarme */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
